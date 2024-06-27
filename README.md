@@ -1,13 +1,21 @@
 # siwp2005-final-project
 # Nama Kelompok 
-*Adrielle Bintang Pratama - 422023021
-*Billy Michael Junus Saija - 422023018
-*Kevin Divra David Sebasti Nababan - 422023023
-*Yobel Kimtoputra - 422023001
+*Adrielle Bintang Pratama - 422023021.
+*Billy Michael Junus Saija - 422023018.
+*Kevin Divra David Sebasti Nababan - 422023023.
+*Yobel Kimtoputra - 422023001.
 
 ## Swagger UI
 Contoh Implementasi Backend : [openapi.yaml](backend/static/openapi.yaml).
 
+Change Server and Port
+```shell
+server ip : 127.0.0.1
+port : 5003
+```
+
+Regist and Login
+Copy and Insert token to authorize value
 
 ### Quick start
 
