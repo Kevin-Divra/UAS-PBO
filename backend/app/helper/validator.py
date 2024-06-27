@@ -34,4 +34,45 @@ def bulletin_validator() -> dict:
         abort(400, {'errors': e.messages})
     except FieldDoesNotExist:
         abort(400, {'error': 'Request is missing required fields'})
+
+def add_billing() -> dict:
+    '''
+    validation for billing
+    '''
+    try:
+        serialized_payload = schema.BillingSchema().load(request.get_json())
+        return serialized_payload
+    except ValidationError as e:
+        abort(400, {'errors': e.messages})
+    except FieldDoesNotExist:
+        abort(400, {'error': 'Request is missing required fields'})
+
+
+def add_softskill() -> dict:
+    '''
+    Validation for add softskill
+    '''
+    try:
+        serialized_payload = schema.SoftskillSchema().load(request.get_json())
+        return serialized_payload
+    except ValidationError as e:
+        abort(400, {'errors': e.messages})
+    except FieldDoesNotExist:
+        abort(400, {'error': 'Request is missing required fields'})
+
+
+def add_grade() -> dict:
+    '''
+    Validation for add grade
+    '''
+    try:
+        serialized_payload = schema.GradeSchema().load(request.get_json())
+        return serialized_payload
+    except ValidationError as e:
+        abort(400, {'errors': e.messages})
+    except FieldDoesNotExist:
+        abort(400, {'error': 'Request is missing required fields'})
+    except NotUniqueError:
+        abort(400, {'error': 'grade already exists, please try another kode_mk'})
+
   
