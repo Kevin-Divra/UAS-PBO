@@ -6,7 +6,7 @@
 *Yobel Kimtoputra - 422023001
 
 ## Swagger UI
-Contoh Implementasi Backend : [openapi.yaml](./backend/app/static/openapi.yaml).
+Contoh Implementasi Backend : [openapi.yaml](backend/app/static/openapi.yaml).
 
 
 ### Quick start
