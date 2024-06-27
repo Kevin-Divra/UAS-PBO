@@ -163,3 +163,4 @@ Langkah-langkah:
 3.	Sistem menampilkan informasi pribadi USER seperti nama, NIM, dan email.
 
 ## 3. Usecase
+![5d9b9f9b-f62b-4723-8713-135f87785bff](https://github.com/Kevin-Divra/UAS-PBO/assets/155137148/ffc0a1a3-8c9f-45f0-a0ae-00186dc264de)
