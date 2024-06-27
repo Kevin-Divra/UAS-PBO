@@ -1,4 +1,12 @@
 # siwp2005-final-project
+# Nama Kelompok 
+*Adrielle Bintang Pratama - 422023021
+*Billy Michael Junus Saija - 422023018
+*Kevin Divra David Sebasti Nababan - 422023023
+*Yobel Kimtoputra - 422023001
+
+## Swagger UI
+Contoh Implementasi Backend : [openapi.yaml](./backend/app/static/openapi.yaml).
 
 
 ### Quick start
@@ -43,13 +51,21 @@ References
 
 
 ### Debugging
+Build Development
+```shell
+docker compose -f docker-compose.yaml up --build -d
+```
+Check Countainer 
+```shell
+docker ps
+```
 Debug via docker logs
 ```shell
 docker logs 'container name'
 ```
 
 ## Membuat PORTAL UKRIDA 
-Kami membuat sistem Portal Ukrida yang di dalam nya terdapat beberapa fitur
+Kami membuat sistem Portal Ukrida yang di dalamnya terdapat beberapa fitur
 
 ## PORTAL UKRIDA
 ## 1. Requirement Analysis
@@ -122,15 +138,7 @@ Langkah-langkah:
 2.	Sistem membuka aplikasi SISFO.
 3.	USER dapat mengakses informasi akademik seperti jadwal kuliah, nilai, dan lain-lain.
 
-D. Menjalankan Perpustakaan
-Aktor: USER
-Deskripsi: USER dapat menjalankan sistem perpustakaan untuk mencari dan meminjam buku.
-Langkah-langkah:
-1.	USER memilih opsi perpustakaan dari menu sistem.
-2.	Sistem membuka aplikasi perpustakaan.
-3.	USER dapat melakukan pencarian buku, meminjam, dan mengembalikan buku.
-
-E.  Logout
+D.  Logout
 Aktor: USER
 Deskripsi: USER dapat keluar dari portal sistem USER.
 Langkah-langkah:
@@ -138,10 +146,12 @@ Langkah-langkah:
 2.	Sistem menghapus sesi login USER.
 3.	USER keluar dari portal sistem dan kembali ke halaman login.
 
-F. Menampilkan Informasi USER
+E. Menampilkan Informasi USER
 Aktor: USER
 Deskripsi: USER dapat melihat informasi pribadi mereka yang tersimpan dalam sistem.
 Langkah-langkah:
 1.	USER berhasil login ke dalam portal sistem USER.
 2.	USER memilih opsi untuk melihat informasi pribadi.
 3.	Sistem menampilkan informasi pribadi USER seperti nama, NIM, dan email.
+
+## 3. Usecase
