@@ -72,8 +72,102 @@ Debug via docker logs
 docker logs 'container name'
 ```
 
+## Creating UKRIDA PORTAL
+We have create the UKRIDA Portal system which includes several features commonly found in university academic portals.
+
+## UKRIDA PORTAL
+### 1. Requirement Analysis
+#### A. Functional Requirements of the UKRIDA Portal
+- **User Authentication:**
+  - Users must be able to log in to the portal using valid credentials, such as name and password.
+  - After logging in, users have access to the available features.
+
+- **Information Search:**
+  - Users can search for information related to academics, such as grades from courses.
+  - The system must provide relevant and accurate search results.
+
+- **Logout:**
+  - Users must have the option to log out of the portal when finished using it.
+
+#### B. Non-Functional Requirements of the UKRIDA Portal
+- **Security:**
+  - The portal must have a high level of security to protect sensitive user data, such as personal information and login credentials.
+  - The system must implement best security practices, such as secure password management and the use of two-factor authentication mechanisms.
+
+- **Availability:**
+  - The portal must be available for use at all times, except during scheduled maintenance periods.
+  - Downtime of the portal should be minimal, and a disaster recovery strategy must be prepared to handle unexpected system failures.
+
+- **Performance:**
+  - The portal must be responsive and able to handle high loads without significant performance degradation.
+  - Response times for each operation within the portal, such as logging in and searching for information, must be quick and meet user expectations.
+
+- **Usability:**
+  - The user interface must be well-designed and easy to use for users from various backgrounds.
+  - The system must provide contextual help and clear documentation to assist users in effectively using the portal's features.
+
+- **Scalability:**
+  - The portal's architecture must be well-designed to support the growth in the number of users and the volume of data.
+  - The system must be able to scale easily over time without compromising performance or availability.
+
+- **Maintainability:**
+  - The portal's code must be clean, well-documented, and easy to maintain to facilitate future development and maintenance.
+  - The system must utilize appropriate monitoring technologies and tools to ease the monitoring of portal health and detection of potential issues.
+
+- **Compatibility:**
+  - The portal must be compatible with various devices and platforms, including desktop computers, laptops, and mobile devices.
+  - The user interface must be responsive to adjust to different screen sizes and resolutions.
+
+### 2. Use Case Stories
+#### A. Login
+- **Actor:** User
+- **Description:** Users can log in to the user system portal.
+- **Steps:**
+  1. The user opens the user system portal.
+  2. The user enters their name and password.
+  3. The system validates the user's credentials.
+  4. If the credentials are valid, the system grants access to the portal features.
+  5. If the credentials are invalid, the system displays an error message.
+
+#### B. Display System Menu
+- **Actor:** User
+- **Description:** Users can view the system menu to select which system they want to access.
+- **Steps:**
+  1. The user successfully logs in to the user system portal.
+  2. The system displays the available system menu.
+  3. The user selects one of the system options they want to access.
+
+#### C. Access SISFO
+- **Actor:** User
+- **Description:** Users can access SISFO (Academic Information System) to obtain academic information.
+- **Steps:**
+  1. The user selects the SISFO option from the system menu.
+  2. The system opens the SISFO application.
+  3. The user can access academic information such as class schedules, grades, and more.
+
+#### D. Logout
+- **Actor:** User
+- **Description:** Users can log out of the user system portal.
+- **Steps:**
+  1. The user selects the logout option from the system menu.
+  2. The system deletes the user's login session.
+  3. The user logs out of the system portal and returns to the login page.
+
+#### E. Display User Information
+- **Actor:** User
+- **Description:** Users can view their personal information stored in the system.
+- **Steps:**
+  1. The user successfully logs in to the user system portal.
+  2. The user selects the option to view personal information.
+  3. The system displays the user's personal information, such as name, student ID (NIM), and email.
+
+## 3. Usecase
+![5d9b9f9b-f62b-4723-8713-135f87785bff](https://github.com/Kevin-Divra/UAS-PBO/assets/155137148/ffc0a1a3-8c9f-45f0-a0ae-00186dc264de)
+
+
 ## Membuat PORTAL UKRIDA 
-Kami membuat sistem Portal Ukrida yang di dalamnya terdapat beberapa fitur
+Kami membuat sistem Portal Ukrida yang di dalamnya terdapat beberapa fitur yang biasa ditemukan di portal
+akademik universitas pada umumnya.
 
 ## PORTAL UKRIDA
 ## 1. Requirement Analysis
